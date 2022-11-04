@@ -73,7 +73,7 @@ class _LiveDataState extends State<LiveData> {
                       label: Text("Get My Location")),
                   Text(locationData == null
                       ? ""
-                      : "Latitude:${locationData}\nLongitude:${locationData}")
+                      : ":${locationData}\:${locationData}")
                 ],
               ))),
     );
